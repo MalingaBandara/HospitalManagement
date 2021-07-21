@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Inline+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&amp;subset=latin-ext">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">MILTON Hospital&nbsp;</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html" style="color: rgb(255, 255, 255);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" style="color: rgb(255, 255, 255);">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blog.html" style="color: rgb(255, 255, 255);">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+                </ul>
+            </div><a href="services.html" style="color: rgb(255, 255, 255);width: 82.9531px;">Services</a><a href="appointment.html" style="color: rgb(255, 255, 255);width: 162.5156px;margin: -1px;height: 79px;padding: 20px;">Make an&nbsp;appointment<br><br></a>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block photography"></section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div id="wrapper">
+                <div id="sidebar-wrapper" style="background: rgb(103,129,248);color: rgb(255,255,255);">
+                    <ul class="sidebar-nav">
+                        <li class="sidebar-brand"> <a href="d_patient.html" style="font-size: 16px;color: rgb(255,255,255);">Patient Registration </a></li>
+                        <li> <a href="d_wards.html" style="height: 61px;color: rgb(255,255,255);">Wards Allocation </a><a href="d_reception.html" style="height: 60px;color: rgb(255,255,255);">Reception Operations </a></li>
+                        <li> <a href="d_opd.html" style="height: 60px;color: rgb(255,255,255);">OPD Treatment </a></li>
+                        <li> <a href="d_lab.html" style="height: 60px;color: rgb(255,255,255);">Labotary test </a></li>
+                    </ul>
+                </div>
+                <div class="page-content-wrapper">
+                    <div class="container-fluid"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <h1><small></small></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8 col-xl-8" style="width: 771px;" >
+                        <form  style="font-family: 'Open Sans', sans-serif;width: 709px;" method="post" action="addPatient">
+                            <div class="form-group"><label>Patient ID</label><input class="form-control" type="text" name="pID"></div>
+                            <div class="form-group"><label>Subject</label><select class="form-control" name="subject">
+                                    <optgroup label="Medical Specialists">
+                                        <option value="Psychiatrist">Psychiatrist</option>
+                                        <option value="Dentist">Dentist</option>
+                                        <option value="General surgeon">General surgeon</option>
+                                        <option value="Dermatologist">Dermatologist</option>
+                                        <option value="General practitioner">General practitioner</option>
+                                    </optgroup>
+                                </select></div>
+                            <div class="form-group"><label>patient Name</label><input class="form-control" type="text" name="pName"></div>
+                            <div class="form-group"><label>Email</label><input class="form-control" type="email" name="pEmail"></div>
+                            <div class="form-group"><label>Phone no.</label><input class="form-control" type="tel" name="pMobile"></div>
+                            <div class="form-group"><label>Birth Day</label><input class="form-control" type="text" name="pBDate"></div>
+                            <div class="form-group"><label>Blood Group</label><input class="form-control" type="text" name="pBlood"></div>
+                            <div class="form-group"><label>NIC</label><input class="form-control" type="text" name="pNic"></div>
+                           
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6" style="height: 73px;width: 246px;"><label for="hire-date">Date</label><input class="form-control" name="date"></div>
+                                </div>
+                            </div><input class="btn btn-primary btn-block" type="submit" value="Add Patient">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Sidebar-Menu.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
