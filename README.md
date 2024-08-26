@@ -12,6 +12,33 @@ This Hospital Management System is a JavaEE-based web application developed as a
 - **Patient Management**: Manages patient profiles, including personal and medical information.
 - **Appointment Scheduling**: Allows patients to book appointments with available doctors.
 
+### Feature Highlights by Commit Insights
+
+1. **Initial Project Setup**:
+   - Configured the foundational project structure with JavaEE (Servlets and JSP).
+   - Set up the database schema using MySQL.
+   - Configured Apache Tomcat for servlet deployment.
+
+2. **Admin Management and Security Features**:
+   - Implemented the Admin login functionality with role-based access control.
+   - Added features for viewing, adding, and updating doctors and patients.
+   - Ensured session management and authentication using JavaEE security.
+
+3. **Doctor and Patient Management Modules**:
+   - Added features to manage doctor specializations and availability.
+   - Developed forms and interfaces for adding, updating, and deleting patient records.
+   - Integrated data persistence using MySQL and optimized database queries.
+
+4. **Appointment Scheduling and Management**:
+   - Implemented appointment booking with dynamic doctor availability checking.
+   - Added functionality for patients to view their appointment history.
+   - Included validation to prevent double-booking of time slots.
+
+5. **Enhancements and Bug Fixes**:
+   - Improved the user interface with better form validation and error handling.
+   - Fixed bugs related to appointment scheduling logic and date management.
+   - Enhanced the UI responsiveness with CSS improvements.
+
 ## Technologies Used
 
 - **JavaEE (JSP, Servlets)**
